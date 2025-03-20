@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
     int *vector;
     int local_found = 0;
     int global_found = 0;
-    int element_to_find = 603461;  // Elemento a ser buscado
+    int element_to_find = 1682309;  // Elemento a ser buscado
 
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
