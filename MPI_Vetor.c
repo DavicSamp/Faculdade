@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <mpi.h>
 #define VECTOR_SIZE 65536  // 2^16
 
 // Função para carregar o vetor a partir de um arquivo CSV
