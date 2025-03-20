@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
 
     // Processo 0 carrega o vetor do arquivo CSV
     if (rank == 0) {
-        load_vector_from_csv("vetor1.csv", vector, VECTOR_SIZE);
+        load_vector_from_csv("vetor2.csv", vector, VECTOR_SIZE);
     }
 
     // Broadcast do vetor para todos os processos
